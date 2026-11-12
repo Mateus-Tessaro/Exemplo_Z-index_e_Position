@@ -1,0 +1,50 @@
+html{
+    scrollbar-color: rgb(2, 44, 36) rgb(17, 141, 169);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    height: 1500px;
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: rgb(66, 109, 142);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+    top: 0;
+    z-index: 10;
+}
+.botaoZap{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+}
+.botaoZap img{
+    border-radius: 50px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin-top: 100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    left: 20px;
+    bottom: 20px;
+}
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    float: right;
+}
